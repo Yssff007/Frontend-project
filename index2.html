@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/style/all.min.css">
+  <link rel="stylesheet" href="/assets/style/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/style/main2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700&family=Nerko+One&display=swap" rel="stylesheet">
+  <title>content</title>
+</head>
+<body>
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg rounded">
+  <div class="container">
+    <a class="navbar-brand" href="#"> <img src="/assets/images/icon.png"width="50" height="50" class="d-inline-block">
+    </a>
+    <div class="collapse navbar-collapse d-flex align-items-center" id="navbarNav">
+      <ul class="navbar-nav d-flex align-items-center mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#category">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="api.html">Movies</a>
+        </li>
+      </ul>
+      <span class="fw-bold mx-4" id="login"></span>
+      <a href="http://127.0.0.1:5500/index.html"><button onclick="deleteInfo()" class="btn btn-outline-dark btn-sm" id="logOutBtn">LogOut</button></a>
+    </div>
+  </div>
+</nav>
+<!-- start home -->
+<section class="home" id="home">
+  <div class="overlay">
+    <div class="container">
+      <div class="row g-5 align-items-center justify-content-center vh-100">
+        <div class="col-md-8">
+          <div class="msg text-center py-5 text-white">
+           <h1 class=" fa-4x">Welcome To <span>Movies</span> Hub</h1>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita culpa vitae blanditi isnulla impedit dolorem?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- start about -->
+<section class="about py-5" id="about">
+  <div class="container">
+    <div class="about-caption py-5 text-center ">
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique earum vel doloremque  neque minima, enim quidem. At odit labore exercitationem facere illum minus placeat nobis libero inventore
+        possimus, rem sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusamus, non
+        consectetur sit, voluptatibus eum ipsum recusandae, eligendi nihil obcaecati amet maiores sed fugit
+        dignissimos aperiam illo modi fugiat ab?</p>
+    </div>
+    <div class="row g-5">
+      <div class="col-md-4">
+        <div class="about-item shadow rounded py-5 px-3 text-center">
+          <h4>Action</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-item shadow rounded py-5 px-3 text-center">
+          <h4>Stories</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-item shadow rounded py-5 px-3 text-center">
+          <h4>Tv</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- start categories -->
+ <section class="category py-5" id="category">
+        <div class="container">
+            <div class="category-caption d-flex justify-content-center align-items-center py-5">
+                <h3 class=" text-uppercase">Categories</h3>
+            </div>
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <div class="image rounded shadow overflow-hidden">
+                        <img class="w-100" src="/assets/images/1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image rounded shadow overflow-hidden">
+                        <img class="w-100" src="/assets/images/3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- start review -->
+<div class="review">
+        <div class="overlay py-5">
+            <div class="container">
+                <div class="row justify-content-center g-5">
+                    <div class="col-md-4 text-center">
+                        <div class="review-item  text-center">
+                            <span class=" fs-2" id="review-random1"></span>
+                            <h5 class=" text-white">Reviews</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="review-item  text-center">
+                            <span class=" fs-2" id="review-random2"></span>
+                            <h5 class=" text-white">Watching</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="review-item  text-center">
+                            <span class=" fs-2" id="review-random3"></span>
+                            <h5 class=" text-white">Subscribe</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- start footer -->
+<footer class=" bg-dark text-center py-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-3">
+                    <div class="footer text-white">
+                        <h6>©Copyright. All Reserved <span>Yousef Hussien</span></h6>
+                        <div class="footer-social d-flex justify-content-evenly align-items-baseline py-2">
+                            <a href="https://www.facebook.com/youssef.hussien.9" class="fs-4 fa-brands fa-facebook"></a>
+                            <a href="https://www.linkedin.com/in/youssef-hussien-24b8931a2/" class="fs-4 fa-brands fa-linkedin"></a>
+                            <a href="https://github.com/Yssff007" class="fs-4 fa-brands fa-github"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/2.js"></script>
+</body>
+</html>

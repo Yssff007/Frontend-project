@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+:root {
+  --main-font: 'Dosis', sans-serif;
+  --light-bg: #1B2430;
+  --main-color:#E94560;
+  --font-color: #fff;
+  --transition: .7s;
+  --border:2px solid rgb(51, 51, 51);
+}
+/* start navbar */
+.navbar{
+  background-color:var(--light-bg);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar-brand{
+  transition: var(--transition);
+}
+.navbar-brand:hover{
+  transform: translateY(-5px);
+}
+.navbar .container .collapse .active{
+  color: var(--main-color);
+}
+.navbar .container .collapse a{
+  color: rgba(255,255,255,.55);
+  transition: var(--transition);
+  font-weight: bold;
+}
+.navbar .container .collapse a:hover{
+  color: var(--main-color);
+  transform: translateY(-5px);
+}
+.navbar .container .collapse span{
+  color: rgba(255,255,255,.55);
+  transition: var(--transition);
+  font-weight: bold;
+}
+.navbar .container .collapse span:hover{
+  color: var(--main-color);
+  transform: translateY(-5px);
+}
+.navbar .container .collapse button{
+  color: rgba(255,255,255,.55);
+  transition: var(--transition);
+  font-weight: bold;
+}
+.navbar .container .collapse button:hover{
+  color: var(--main-color);
+  transform: translateY(-5px);
+}
+/* start movies */
+.movies{
+  background-color: var(--light-bg);
+}
+.movies span{
+  color: white;
+  background-color: var(--main-color);
+  padding: 0 20px;
+}
+/* start footer */
+.footer span {
+    color: var(--main-color);
+}
+.footer-social a {
+    transition: .7s;
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+}
+.footer-social a:hover{
+  color: var(--main-color);
+  transform: translateY(-5px);
+}

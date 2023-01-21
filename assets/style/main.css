@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700&display=swap');
+:root {
+  --main-font: 'Dosis', sans-serif;
+  --light-bg: #1B2430;
+  --main-color:#E94560;
+  --font-color: #fff;
+  --transition: .7s;
+  --border:2px solid rgb(51, 51, 51);
+}
+body{
+  min-height: 100vh;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* start form */
+.form .container{
+  background-color:#0A2647;
+  color: var(--main-color);
+}
+.form .container .btn{
+  background-color: var(--main-color);
+  color: var(--font-color);
+}
